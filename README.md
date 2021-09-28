@@ -1,5 +1,17 @@
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod-redirect-0.herokuapp.com/)
 
+
+## Résultats
+Score | Critères
+--- | ---
+1/1 | Anagrammes
+1/1 | Doublons
+0/1 | Frequence
+1/1 | Notes
+0/1 | Ordre
+3/5 | **Total**
+
+[Voir détails](./logs/tests_results.txt) | [Rafraîchir](../../)
 # Exercices en vrac (chapitre 6)
 
 Avant de commencer, consultez les instructions à suivre dans [instructions.md](instructions.md)

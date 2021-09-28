@@ -1,0 +1,39 @@
+test_anagram (__main__.TestExercice) ... ok
+test_doubles (__main__.TestExercice) ... ok
+test_frequence (__main__.TestExercice) ... FAIL
+test_grades (__main__.TestExercice) ... ok
+test_order (__main__.TestExercice) ... FAIL
+
+======================================================================
+FAIL: test_frequence (__main__.TestExercice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_exercice.py", line 80, in test_frequence
+    self.assertListEqual(
+AssertionError: Lists differ: [{'a': 0, 'b': 1, 'c': 0, 'd': 0, 'e': 0, 'f[371 chars]: 0}] != [{'B': 1, 'o': 4, 'n': 2, 'j': 2, 'u': 2, 'r[187 chars]: 1}]
+
+First differing element 0:
+{'a': 0, 'b': 1, 'c': 0, 'd': 0, 'e': 0, 'f[160 chars]': 0}
+{'B': 1, 'o': 4, 'n': 2, 'j': 2, 'u': 2, 'r[24 chars]': 1}
+
+Diff is 855 characters long. Set self.maxDiff to None to see it. : Erreur dans les histogrammes
+
+======================================================================
+FAIL: test_order (__main__.TestExercice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_exercice.py", line 22, in test_order
+    self.assertListEqual(
+AssertionError: Lists differ: [None, None] != [[-2, 1, 6, 9], ['2', 'a', 'hello']]
+
+First differing element 0:
+None
+[-2, 1, 6, 9]
+
+- [None, None]
++ [[-2, 1, 6, 9], ['2', 'a', 'hello']] : Mauvais ordre
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+FAILED (failures=2)
